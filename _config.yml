@@ -1,5 +1,5 @@
 auto: true
-safe: true
+safe: false
 server: false
 baseurl: http://phpprogrammers.github.com/faq
 url: http://phpprogrammers.github.com/faq
