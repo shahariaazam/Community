@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Community Project - PHP Programmers G+ Community</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %} - PHP Programmers</title>
 
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-responsive.min.css">
@@ -51,22 +51,10 @@
                 <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
             </a>
             <center>
-                <h1>Open FAQ<br>for PHP Programmers</h1>
-                <small>Developed by: <a href="https://plus.google.com/u/0/communities/104245651975268426012">G+ Community</a></small>
-                <br><br>
+                <h1>{% if page.title %}{{ page.title }}{% endif %} </h1>
             </center>
             {{content}}
-            <div class="well well-small" style="background-color: #ffefd5; color: black;">
-                <h4 id="contributors">Contributors</h4>
 
-                <ul>
-                    <li>Faryshta Mextly https://github.com/Faryshta</li>
-
-                    <li>Ole oaass https://github.com/oaass</li>
-
-                    <li>Shaharia Azam http://www.shahariaazam.com</li>
-                </ul>
-            </div>
         </div>
     </div>
 </div>
